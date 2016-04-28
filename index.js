@@ -77,6 +77,9 @@ module.exports = React.createClass({
       "react-toggle--focus": this.state.hasFocus,
       "react-toggle--disabled": this.props.disabled
     });
+    
+    var X = this.props.X || X
+    var Check = this.props.Check || Check
 
     return React.createElement(
       "div",
